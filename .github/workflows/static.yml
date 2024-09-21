@@ -22,4 +22,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}  # Definito nei secrets
           password: ${{ secrets.FTP_PASSWORD }}  # Definito nei secrets
           local-dir: ./  # La directory locale da cui caricare (usa ./ per la root del repo)
-          server-dir: /path/on/server  # La directory sul server FTP dove vuoi fare il deploy
+          server-dir: /  # La directory sul server FTP dove vuoi fare il deploy
